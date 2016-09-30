@@ -124,7 +124,7 @@ func (this *Config) processTags(config interface{}, prefix ...string) error {
 	}
 
 	return nil 
-}
+}	
 
 
 
