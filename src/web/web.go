@@ -18,4 +18,5 @@ func main() {
 	dataConfig := &DataConfig{}
 	configor := config.NewConfig()
 	configor.Load(dataConfig, "/Users/henry-sun/data/www/my-go-config/src/configure/config.json")
+	fmt.Println(dataConfig)
 }
